@@ -1,0 +1,14 @@
+{
+  "name": "elliot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build frontend/src/style.css -o frontend/public/style.css"
+  },
+  "author": "Kayra",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^1.1.4"
+  }
+}
