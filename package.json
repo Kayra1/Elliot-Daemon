@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "deploy": "",
     "build:css": "tailwind build frontend/src/style.css -o frontend/public/style.css"
   },
   "author": "Kayra",
   "license": "ISC",
   "dependencies": {
+    "http-server": "^0.12.0",
     "tailwindcss": "^1.1.4"
   }
 }
